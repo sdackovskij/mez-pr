@@ -1,7 +1,7 @@
-$(html).scroll(function() {    
-    var scroll = $(html).scrollTop();
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
 
     if (scroll >= 200) {
-       alert("Hello");
+    console.log('jquery is a piece of shit');
     } 
 });
