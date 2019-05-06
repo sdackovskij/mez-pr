@@ -9,11 +9,15 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+}
+
 .overlay h1 {
     text-align:center;
     color:#fff;
     font-size: 72px;
-    margin-top:14%;
+    margin-top:18%;
 }
 
 .overlay p{
@@ -31,20 +35,24 @@ body {
  ul.hr {
       display: inline-block;
     
-    margin: 0px; 
+  /*  margin: 0px;
     padding: 0px; 
-     
-     padding-left: 200px;
+
+     padding-left: 200px;*/
+     margin-left: 50%;
+     margin-right: 50%;
      vertical-align: super;
      text-align: center;
    }
    ul.hr li {
-    display: inline; 
-   
-    border: none; 
+   display: inline;
+   /*
+border: none;
     padding: 10px;
+     padding-right: 15px;
+    */
        color: #fff;
-       padding-right: 15px;
+
     font-size: 18px;
    }
 
@@ -58,7 +66,7 @@ header {
 }
 
 .scroll {
-     background: rgba(0,0,0,0.6);
+     background: rgba(0,0,0,0.8);
     
 }
 
@@ -108,8 +116,8 @@ header {
     position: relative;
     height: 100%;
     width: 100%;
-    padding-top:45%;
-    height: 50px;
+    padding-top:49%;
+
 }
  
 .fullscreen-bg__video {
@@ -129,26 +137,8 @@ header {
     height: 100%;
     z-index: 4;
 }
-
-
-
-.content {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.content h2 {
-	text-align: center;
-	font-size: 30px;
-}
-
-.content p {
-	text-align: justify;
-	font-size: 20px;
-}
  
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
 	.fullscreen-bg {
 		background: url('../images/plane.jpg') center center / cover no-repeat;
 	}
@@ -160,7 +150,306 @@ header {
 	.overlay h1 {
 	    font-size: 40px;
 	}
+}*/
+
+.festHeader {
+    padding: 150px 0px 0px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 105px;
+    width: 100%;
+
 }
 
+.festHeader h2 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+
+
+.festBlock {
+    padding-top: 60px;
+    width: 1000px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+.festText {
+    display: inline-block;
+    width: 500px;
+    height:500px;
+    margin: 0;
+    padding: 0;
+    background: seashell;
+vertical-align: bottom;
+    text-align: center;
+
+}
+.festText h3 {
+    padding-top: 20%;
+    margin-bottom: 0;
+font-size: 56px;
+}
+
+.festText p {
+    font-size: 20px;
+}
+.festImg {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+}
+
+.festImg img {
+    width: 500px;
+    height: 500px;
+}
+
+.mailText {
+    margin-top: 90px;
+    text-align: center;
+    font-size: 30px;
+}
+
+form {
+    margin-top: 30px;
+text-align: center;
+
+}
+
+input[type=email] {
+    margin: 0;
+
+    font-size: 20px;
+    height: 60px;
+    padding: 0 20px;
+
+    line-height: 1.33;
+
+    border: 0 none;
+    box-sizing: border-box;
+    color:#000000;
+    border-bottom: 2px solid dodgerblue;
+    outline:none;
+
+}
+
+input[type=submit] {
+    color:#ffffff;
+    background-color: dodgerblue;
+    border-radius:30px;
+    text-align: center;
+    height: 60px;
+    border: 0 none;
+    font-size: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 50px;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+input[type=submit]:hover {
+    background: crimson;
+}
+
+.ourValues {
+    margin-top: 165px;
+    background: dodgerblue;
+    height: 578px;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.ourValues h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.23;
+    margin-bottom: 75px;
+}
+
+.ourValuesBlock {
+    width: 1200px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.block {
+    display: inline-block;
+    width: 360px;
+    height: 257px;
+margin-right: 20px;
+}
+
+.block:last-child {
+    margin-right: 0;
+}
+
+.ourValuesBlock h3 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.ourValuesBlock p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.btn-oval-values {
+    display: inline-block;
+    width: 260px;
+    height: 56px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background:rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 35px;
+    border: 1px solid white;
+    font: bold 20px/50px Arial;
+    position: relative;
+    margin: auto;
+    outline: none;
+    vertical-align: center;
+}
+
+.btn-oval-values:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0);
+    z-index: -1;
+    border-radius: 50px;
+
+}
+.btn-oval-values:hover {
+    background: crimson;
+}
+
+.foto h2 {
+    font-size: 55px;
+}
+
+.foto {
+    color: black;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.slider {
+    width: auto;
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.your-class {
+    width: auto;
+    margin: 20px auto;
+}
+.your-class img{
+    width: 700px;
+}
+.slick-prev:before,
+.slick-next:before {
+    color: grey !important;
+}
+
+.btn-oval-foto {
+
+    display: inline-block;
+    width: 260px;
+    height: 56px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background: coral;
+    border-radius: 35px;
+    border: 1px solid coral;
+    font: bold 20px/50px Arial;
+    position: relative;
+    margin: auto;
+    outline: none;
+    vertical-align: center;
+    margin-top: 50px;
+}
+
+.btn-oval-foto:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0);
+    z-index: -1;
+    border-radius: 50px;
+
+}
+.btn-oval-foto:hover {
+    background: crimson;
+}
+
+.footer {
+    background: #171717;
+    width: auto;
+    height: 270px;
+    padding-top: 60px;
+}
+
+.social {
+
+    height: 150px;
+
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-bottom:1px solid white;
+}
+
+.socialBlock {
+    display: inline-block;
+    width: 360px;
+    height: 157px;
+    margin-right: 20px;
+
+
+}
+.socialBlock:last-child {
+    margin-right: 0;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+
+}
 /**/
 
